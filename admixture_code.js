@@ -199,10 +199,10 @@ function draw() {
     ctx.fillStyle = "#FFFFFF";
     ctx.fillRect(0, 0, width, height);
 
-    var title_size = 50
+    var title_size = 40
     ctx.font = ""+title_size+"px serif"
     ctx.fillStyle = "#000000";
-    ctx.fillText("Inferring generalized forms of selection", width/2 - title_size*8, 60)
+    ctx.fillText("Inferring generalized forms of selection in introgressed populations", width/2 - title_size*13, 60)
     
     for(let i = 0; i < wiggly_men.length; i++){
         wiggly_men[i].draw(ctx, seconds)
