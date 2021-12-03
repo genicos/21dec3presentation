@@ -1,0 +1,19 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="network_creator"></canvas>
+    <div id="buttons">
+        <input id="prevpage" type="button" value="<"         onclick="window.location.href='markov.html';"  />
+        fitness of s:
+        <input type="text" id="e" value="1" style="width: 35px;">
+        ,1,
+        <input type="text" id="f" value="1" style="width: 35px;">
+
+        <input id="reset"    type="button" value="reset"    onclick="reset();" />
+        <input id="nextgen"  type="button" value="next gen" onclick="next_gen();" />
+        <input id="fifty_gens"  type="button" value="50 gens" onclick="fifty_gens();" />
+        <input id="nextpage" type="button" value=">"        onclick="window.location.href='markovselection.html';"  />
+    </div>
+    <script src="haploids_code.js"></script>
+</body>

@@ -1,0 +1,15 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="network_creator"></canvas>
+    <div id="buttons">
+        <input id="prevpage" type="button" value="<"         onclick="window.location.href='index.html';"  />
+        <input id="reset" type="button" value="reset" onclick="reset();" />
+        <input id="selon" type="button" value="turn selection on" onclick="turn_selection_on();" />
+        <input id="seloff" type="button" value="turn selection off" onclick="turn_selection_off();" />
+        <input id="nextstep" type="button" value="next step" onclick="send_to_step_2();" />
+        <input id="nextpage" type="button" value=">"         onclick="window.location.href='markov.html';"  />
+    </div>
+    <script src="dna_admixture_code.js"></script>
+</body>
